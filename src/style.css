@@ -1,0 +1,37 @@
+/* background color #0d0d0d */
+body{
+  background-image: url(back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15%;
+}
+h1{
+    font-size: 60px;
+    color: white;
+    margin-bottom: 26%;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 7% 10%;
+    color: white;
+    background-color: #2f8080;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+a:hover{
+    color: white;
+    background-color: grey;
+    border: 2px solid grey;
+}
