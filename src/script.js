@@ -94,7 +94,6 @@ let optionlist = `
 choices.innerHTML = optionlist;
 
 }
-choosedoption();
 function countquestion(index){
   let quesnum = document.getElementById("quiznum")
   quesnum.textContent =`${index} of ${questions.length} Questions`
